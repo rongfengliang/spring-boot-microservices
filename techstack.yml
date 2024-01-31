@@ -1,0 +1,273 @@
+repo_name: rongfengliang/spring-boot-microservices
+report_id: 199f7b135b3ac3b283060e01b409c383
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T08:03:52+00:00'
+requested_by: rohitghatol
+provider: github
+branch: master
+detected_tools_count: 18
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/rongfengliang/spring-boot-microservices
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/rongfengliang/spring-boot-microservices
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/rongfengliang/spring-boot-microservices/blob/master/auth-server/src/main/resources/schema.sql
+  detection_source: auth-server/src/main/resources/schema.sql
+  last_updated_by: Rohit Ghatol
+  last_updated_on: 2015-04-08 05:01:27.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rongfengliang/spring-boot-microservices
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/rongfengliang/spring-boot-microservices/blob/master/api-gateway/build.gradle
+  detection_source: api-gateway/build.gradle
+  last_updated_by: Anil Allewar
+  last_updated_on: 2015-08-10 21:44:37.000000000 Z
+- name: Zuul
+  description: An edge service that provides dynamic routing, monitoring, resiliency,
+    security, and more
+  website_url: https://github.com/Netflix/zuul
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Microservices Tools
+  image_url: https://img.stackshare.io/service/2932/zuul.png
+  detection_source_url: https://github.com/rongfengliang/spring-boot-microservices/blob/master/api-gateway/build.gradle
+  detection_source: api-gateway/build.gradle
+  last_updated_by: Rohit Ghatol
+  last_updated_on: 2015-04-06 22:21:03.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/rongfengliang/spring-boot-microservices/blob/master/api-gateway/src/main/resources/application.yml
+  detection_source: api-gateway/src/main/resources/application.yml
+  last_updated_by: Anil Allewar
+  last_updated_on: 2015-07-29 08:32:48.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/rongfengliang/spring-boot-microservices
+  detection_source: Repo Metadata
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  version: 5.1.30
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/spring-boot-microservices/blob/master/api-gateway/build.gradle
+  detection_source: api-gateway/build.gradle
+  last_updated_by: Anil Allewar
+  last_updated_on: 2015-08-10 21:44:37.000000000 Z
+  vulnerabilities:
+  - name: Improper Privilege Management in MySQL Connectors Java
+    cve_id: CVE-2018-3258
+    cve_url: https://github.com/advisories/GHSA-4vrv-ch96-6h42
+    detected_date: Jun 29
+    severity: high
+    first_patched: 8.0.13
+  - name: Improper Access Control in MySQL Connectors Java
+    cve_id: CVE-2017-3523
+    cve_url: https://github.com/advisories/GHSA-2xxh-f8r3-hvvr
+    detected_date: Jul 2
+    severity: high
+    first_patched: 5.1.41
+  - name: Privilege escalation in mysql-connector-jav
+    cve_id: CVE-2019-2692
+    cve_url: https://github.com/advisories/GHSA-jcq3-cprp-m333
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 8.0.16
+  - name: Exposure of Sensitive Information to an Unauthorized Actor in Oracle MySQL
+      Connectors Java
+    cve_id: CVE-2017-3586
+    cve_url: https://github.com/advisories/GHSA-pwh7-92h3-mqr6
+    detected_date: Jul 2
+    severity: moderate
+    first_patched: 5.1.42
+  - name: Improper Access Control in MySQL Connectors Java
+    cve_id: CVE-2015-2575
+    cve_url: https://github.com/advisories/GHSA-gc43-g62c-99g2
+    detected_date: Jul 7
+    severity: moderate
+    first_patched: 5.1.35
+  - name: Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors
+      Java
+    cve_id: CVE-2022-21363
+    cve_url: https://github.com/advisories/GHSA-g76j-4cxx-23h9
+    detected_date: Jun 21
+    severity: moderate
+    first_patched: 8.0.28
+  - name: Exposure of Sensitive Information to an Unauthorized Actor in Oracle MySQL
+      Connectors Java
+    cve_id: CVE-2017-3589
+    cve_url: https://github.com/advisories/GHSA-cjcf-wm2p-59h5
+    detected_date: Jul 2
+    severity: low
+    first_patched: 5.1.42
+- name: org.springframework.boot:spring-boot-starter-actuator
+  description: Starter for using Spring Boot's Actuator which provides production
+    ready features to help you monitor and manage your application
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/spring-boot-microservices/blob/master/api-gateway/build.gradle
+  detection_source: api-gateway/build.gradle
+  last_updated_by: Anil Allewar
+  last_updated_on: 2015-08-10 21:44:37.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-jpa
+  description: Starter for using Spring Data JPA with Hibernate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/spring-boot-microservices/blob/master/api-gateway/build.gradle
+  detection_source: api-gateway/build.gradle
+  last_updated_by: Anil Allewar
+  last_updated_on: 2015-08-10 21:44:37.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-security
+  description: Starter for using Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/spring-boot-microservices/blob/master/api-gateway/build.gradle
+  detection_source: api-gateway/build.gradle
+  last_updated_by: Anil Allewar
+  last_updated_on: 2015-08-10 21:44:37.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/spring-boot-microservices/blob/master/api-gateway/build.gradle
+  detection_source: api-gateway/build.gradle
+  last_updated_by: Anil Allewar
+  last_updated_on: 2015-08-10 21:44:37.000000000 Z
+- name: org.springframework.cloud:spring-cloud-config-client
+  description: "#&lt;Ox::CData:0x000055b4f0c4ebb8&gt;"
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/spring-boot-microservices/blob/master/api-gateway/build.gradle
+  detection_source: api-gateway/build.gradle
+  last_updated_by: Anil Allewar
+  last_updated_on: 2015-08-10 21:44:37.000000000 Z
+- name: org.springframework.cloud:spring-cloud-config-server
+  description: Spring-cloud-config-server
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/spring-boot-microservices/blob/master/config-server/build.gradle
+  detection_source: config-server/build.gradle
+  last_updated_by: Anil Allewar
+  last_updated_on: 2015-08-10 21:44:37.000000000 Z
+- name: org.springframework.cloud:spring-cloud-starter-eureka
+  description: Spring Cloud Starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/spring-boot-microservices/blob/master/api-gateway/build.gradle
+  detection_source: api-gateway/build.gradle
+  last_updated_by: Anil Allewar
+  last_updated_on: 2015-08-10 21:44:37.000000000 Z
+- name: org.springframework.security.oauth:spring-security-oauth2
+  description: Module for providing OAuth2 support to Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/spring-boot-microservices/blob/master/api-gateway/build.gradle
+  detection_source: api-gateway/build.gradle
+  last_updated_by: Anil Allewar
+  last_updated_on: 2015-08-10 21:44:37.000000000 Z
+- name: org.springframework:spring-test
+  description: Spring TestContext Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rongfengliang/spring-boot-microservices/blob/master/api-gateway/build.gradle
+  detection_source: api-gateway/build.gradle
+  last_updated_by: Anil Allewar
+  last_updated_on: 2015-08-10 21:44:37.000000000 Z
